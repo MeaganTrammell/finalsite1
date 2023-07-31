@@ -333,6 +333,7 @@ article, fieldset, dialog {
   border-radius: var(--standard-border-radius);
   margin-bottom: 1rem;
   background-color: #212121;
+  color: white;
 }
 
 article h2:first-child,
