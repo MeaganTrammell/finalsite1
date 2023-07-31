@@ -66,7 +66,7 @@ html {
 /* Make the body a nice central block */
 body {
   color: var(--text);
-  background-color: var(--bg);
+  background-color: #212121;
   font-size: 1.15rem;
   line-height: 1.5;
   display: grid;
@@ -79,7 +79,7 @@ body > * {
 
 /* Make the header bg full width, but the content inline with body */
 body > header {
-  background-color: var(--accent-bg);
+  background-color: #6368D3;
   border-bottom: 1px solid var(--border);
   text-align: center;
   padding: 0 0.5rem 2rem 0.5rem;
@@ -98,16 +98,18 @@ body > header p {
 
 /* Add a little padding to ensure spacing is correct between content and header > nav */
 main {
-  padding-top: 1.5rem;
+  padding-top: 1.5 rem;
 }
 
 body > footer {
-  margin-top: 4rem;
+
   padding: 2rem 1rem 1.5rem 1rem;
-  color: var(--text-light);
+  color: white;
   font-size: 0.9rem;
   text-align: center;
   border-top: 1px solid var(--border);
+  background-color: #6368D3;
+  grid-column: 1 / -1;
 }
 
 /* Format headers */
@@ -271,7 +273,8 @@ header > nav a:visited {
   margin: 0 0.5rem 1rem 0.5rem;
   border: 1px solid var(--border);
   border-radius: var(--standard-border-radius);
-  color: var(--text);
+  color: white;
+  background-color: #2a2e80;
   display: inline-block;
   padding: 0.1rem 1rem;
   text-decoration: none;
@@ -281,7 +284,8 @@ header > nav a:hover,
 header > nav a.current,
 header > nav a[aria-current="page"] {
   border-color: var(--accent);
-  color: var(--accent);
+  color:white;
+  background-color: #2a2e80;
   cursor: pointer;
 }
 
@@ -328,6 +332,7 @@ article, fieldset, dialog {
   padding: 1rem;
   border-radius: var(--standard-border-radius);
   margin-bottom: 1rem;
+  background-color: #212121;
 }
 
 article h2:first-child,
